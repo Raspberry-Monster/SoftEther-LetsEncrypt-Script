@@ -1,0 +1,6 @@
+[Unit]
+Description=Certbot Script
+[Service]
+Type=oneshot
+ExecStart=/opt/certbot.sh
+PrivateTmp=true

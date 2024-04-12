@@ -1,0 +1,9 @@
+[Timer]
+OnCalendar=*-*-1 00:00:00
+AccuracySec=6h
+RandomizedDelaySec=1h
+Persistent=true
+Unit=certbot.service
+
+[Install]
+WantedBy=default.target
